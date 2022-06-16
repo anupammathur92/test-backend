@@ -1,12 +1,10 @@
 require('dotenv').config();
+const cors = require('cors');
 const express = require("express");
 const app = express();
-const { createServer } = require("http");
-const cors = require('cors');
 const { Op,condition } = require("sequelize");
 
 const path = require("path")
-const user = require("./models/user");
 const db = require("./models");
 
 const errorHandler = require('./admin/middleware/error-handler');

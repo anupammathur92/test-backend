@@ -87,7 +87,7 @@
 			"response": []
 		},
 		{
-			"name": "update employee",
+			"name": "create employee",
 			"request": {
 				"auth": {
 					"type": "bearer",
@@ -103,7 +103,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"firstName\":\"testfive\",\n    \"lastName\":\"testfour\",\n    \"email\":\"test1@yopmail.com\"\n}",
+					"raw": "{\n    \"firstName\":\"testnine\",\n    \"lastName\":\"testnine\",\n    \"email\":\"testnine@yopmail.com\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -223,7 +223,7 @@
 		},
 		{
 			"key": "auth_token",
-			"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsInJvbGVfaWQiOiIxIiwiaWF0IjoxNjU1MzEyNzQ1LCJleHAiOjE2NTUzOTkxNDV9.KpWRASQoDsPxdwOR7WGwUVSWPAKBTCIew5Egv5q45X8",
+			"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsInJvbGVfaWQiOiIxIiwiaWF0IjoxNjU1MzU0MTUwLCJleHAiOjE2NTU0NDA1NTB9.JTo99AB5Azw492faEL8RElGFx7dnEBoHeP1O2uWLTHc",
 			"type": "string"
 		}
 	]
